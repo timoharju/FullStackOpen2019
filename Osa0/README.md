@@ -3,6 +3,7 @@
 ## 0.4: uusi muistiinpano
 ![alt text](https://i.postimg.cc/yWqCbFWb/0-4-Muistiinpano.png)
 
+```
 kayttaja->selain:
 note left of selain
   kayttaja tekee haun selaimelle kirjoittamalla osoiteriville
@@ -45,3 +46,4 @@ note left of selain
 HTML-sivu saa vielä lopuksi muistiinpanot, 
 jotka saatiin tekemällä palautuspyyntö data.json sisältämälle sivulle.
 end note
+```
