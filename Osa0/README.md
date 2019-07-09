@@ -1,12 +1,12 @@
 # Osa 0 
 
-## 0.4: uusi muistiinpano
-![alt text](https://i.postimg.cc/yWqCbFWb/0-4-Muistiinpano.png)
+## 0.4: Muistiinpanojen sivu
+![alt text](https://i.postimg.cc/BnFx8zkK/Untitled.png)
 
 ```
 kayttaja->selain:
 note left of selain
-  kayttaja tekee haun selaimelle kirjoittamalla osoiteriville
+  kayttaja toteuttaa haun selaimelle kirjoittamalla osoiteriville
   fullstack-exampleapp.herokuapp.com/notes
 
 end note
@@ -43,7 +43,31 @@ end note
 palvelin->selain: status 200, muistiinpanot JSON-muodossa
 
 note left of selain
-HTML-sivu saa vielä lopuksi muistiinpanot, 
-jotka saatiin tekemällä palautuspyyntö data.json sisältämälle sivulle.
+HTML-sivu vastaanottaa vielä lopuksi muistiinpanot. 
+musitiinpanot saatiin tekemällä palautuspyyntö data.json sisältämälle sivulle.
+end note
+
+kayttaja->selain:
+note left of selain
+  Käyttäjä täydentää lomake kentän omalla vapaa 
+  valintaisella tekstillä ja painaa Tallenna-painiketta
+end note
+selain->palvelin: HTTP POST fullstack-exampleapp.herokuapp.com/notes
+note left of palvelin
+ 
+  Palvelin vastaanottaa pyynnön, sekä käyttäjän lähettämän tekstin.
+  Tiedot tallentuvat json-muotoisena raakadatana data.json sisältävälle html sivulle
+end note
+palvelin->selain: status 302, location: fullstack-exampleapp.herokuapp.com/notes
+
+note left of selain
+Käyttäjän syöttämä teksti näkyy nyt html-sivulla. Tapahtumaketju alkaa alusta. 
 end note
 ```
+## 0.5: Muistiinpanojen sivu
+
+
+
+## 0.5: Single Page App
+
+
