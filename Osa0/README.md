@@ -65,7 +65,7 @@ Käyttäjän syöttämä teksti näkyy nyt html-sivulla. Tapahtumaketju alkaa al
 end note
 ```
 ## 0.5: Single Page App
-![alt text](https://postimg.cc/dD3D2h51/3c82edb0)
+![alt text](https://i.postimg.cc/kMF8d88x/Untitled-1.png)
 
 ```
 kayttaja->selain:
