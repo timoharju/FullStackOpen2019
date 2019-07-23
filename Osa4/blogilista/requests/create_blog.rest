@@ -1,0 +1,10 @@
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRpbW9oIiwiaWQiOiI1ZDM3M2E1ODNkYmI2MTQwMzQzZTg4MDEiLCJpYXQiOjE1NjM5MDE1NDV9.P_G4FbPDqFAgv2EDbZajaZ0ISkQEx84ADbmpz0GMHbY
+
+{
+  "title": "Testititle",
+  "author": "Edsger W. Dijkstra",
+  "url": "http://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD808.html",
+  "likes": "12"
+}
